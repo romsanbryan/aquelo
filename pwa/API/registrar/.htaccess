@@ -1,0 +1,10 @@
+Options +FollowSymLinks -MultiViews
+
+RewriteEngine On
+
+
+
+
+
+
+RewriteRule ^([^/]+)/([^/]+) detalles.php?peticion=$1&detalle=$2 [L,QSA]
